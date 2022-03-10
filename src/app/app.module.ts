@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home';
 import { SairamComponent } from './sairam/sairam';
 import { KesavaComponent } from './kesava/kesava.component';
+import { DirectivesComponent } from './directives/directives.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SairamComponent,
-    KesavaComponent
+    KesavaComponent,
+    DirectivesComponent
   ],
   imports: [
     BrowserModule,

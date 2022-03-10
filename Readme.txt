@@ -27,4 +27,24 @@ always create class name as HomeComponent{
 
 firstletter of each word should be capital letter.
 ------------------------------------------------------
+ automatically create any component using angular cli
+ -> ng g c componentname
+ automatically create any module using angular cli
+ -> ng g m modulename
+ -----------------------------------------------------
+ Data Binding
+ it is used to communicate html and ts files.
+
+ -> one way data binding.
+ -> two way data binding.
+
+ one way data binding
+ ->()-event binding- Html to ts.
+ ->[]-property binding- ts to Html.
+ two way data binding
+ ->[(ngModel)]-both html to ts and ts to html
+ ------------------------------------------------------------
+ interpolation
+ {{}}- used in html to render the data available in ts file.
+ ------------------------------------------------------------
  
