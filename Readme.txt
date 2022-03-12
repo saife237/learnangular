@@ -47,4 +47,11 @@ firstletter of each word should be capital letter.
  interpolation
  {{}}- used in html to render the data available in ts file.
  ------------------------------------------------------------
- 
+ Directives
+ structural 
+ ngIf
+ ngFor
+ attribute
+ ngStyle
+ ngClass
+ DOM- Document Object Model

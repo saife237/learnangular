@@ -1,1 +1,24 @@
 <p>directives works!</p>
+<div *ngIf="true">
+    this is visible
+</div>
+<div *ngIf="true">
+    this is hidden
+</div>
+<div *ngIf="isVisable">
+    the paragraph is visible if we click visable button
+</div>
+<button (click)="getVisable()">Visable</button>
+<button (click)="getInvisible()">not Visable</button>
+<div>
+    <ul *ngFor="let data of DataList">
+        <img src="../../assets/laptop.jpeg" alt="" width="50px" height="50px">
+        <li>
+            {{data.name}}
+            
+        </li>
+        <li>
+            {{data.description}}
+        </li>
+    </ul>
+</div>
