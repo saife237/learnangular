@@ -48,10 +48,11 @@ firstletter of each word should be capital letter.
  {{}}- used in html to render the data available in ts file.
  ------------------------------------------------------------
  Directives
- structural 
- ngIf
- ngFor
- attribute
+ ->structural 
+ ngIf- to show and hide the data in html.
+ ngFor- to render the data in a manner.
+ ->attribute
  ngStyle
  ngClass
  DOM- Document Object Model
+ 
