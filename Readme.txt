@@ -55,4 +55,7 @@ firstletter of each word should be capital letter.
  ngStyle
  ngClass
  DOM- Document Object Model
- 
+-------------------------------------------------------------
+ Component Interaction
+ ->parent to child
+ ->child to parent

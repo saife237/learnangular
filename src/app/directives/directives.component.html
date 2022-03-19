@@ -11,7 +11,7 @@
 <button (click)="getVisable()">Visable</button>
 <button (click)="getInvisible()">not Visable</button>
 <div>
-    <ul *ngFor="let data of DataList">
+    <ul *ngFor="let data of DataList" [ngClass]="'text-success=false'">
         <img src="../../assets/laptop.jpeg" alt="" width="50px" height="50px">
         <li>
             {{data.name}}
@@ -19,5 +19,11 @@
         <li>
             {{data.description}}
         </li>
+        
+            <button>Buy</button>
+        
+        
+            <button>Info</button>
+        
     </ul>
 </div>
