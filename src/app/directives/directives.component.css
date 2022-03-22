@@ -8,3 +8,18 @@ button{
 ul{
     display: inline-block
 }
+
+.card{
+    display: flexbox;
+    margin:20px;
+    background-color: blue;
+    color:white;
+    width:200px;
+    height:200px;
+    padding:10px;
+    text-align: center;
+}
+
+li{
+    list-style-type: none;
+}
