@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ServiceService } from '../service.service';
 
 @Component({
   selector: 'app-directives',
@@ -15,29 +16,8 @@ export class DirectivesComponent implements OnInit {
     this.isVisable=false;
   }
 
-  public DataList=[
-    {
-      name:"del",
-      id:"123",
-      description:"this is a del"
-    },
-    {
-      name:"hp",
-      id:"1234",
-      description:"this is a hp"
-    },
-    {
-      name:"asus",
-      id:"12345",
-      description:"this is a asus"
-    },
-    {
-      name:"lenovo",
-      id:"123456",
-      description:"this is a lenovo"
-    }
-  ]
-  constructor() { }
+  public Datadetails= this.service.DataList;
+  constructor(private service:ServiceService) { }
 
   ngOnInit(): void {
   }

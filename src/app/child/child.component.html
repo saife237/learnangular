@@ -1,0 +1,19 @@
+<p>child works!</p>
+
+<h2>
+    {{msg}}
+</h2>
+
+<button (click)="onClick()">
+    send child to parent
+</button>
+<div>
+    <ul *ngFor="let data of Data">
+        <li>
+            {{data.name}}
+        </li>
+        <li>
+            {{data.id}}
+        </li>
+    </ul>
+</div>

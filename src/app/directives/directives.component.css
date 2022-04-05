@@ -12,14 +12,19 @@ ul{
 .card{
     display: flexbox;
     margin:20px;
-    background-color: blue;
+    background-color: grey;
     color:white;
-    width:200px;
+    width:20%;
     height:200px;
     padding:10px;
     text-align: center;
+    
 }
 
 li{
     list-style-type: none;
+}
+
+.text{
+    justify-content: center;
 }

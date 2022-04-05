@@ -4,8 +4,9 @@
 <div *ngIf="isVisable">the paragraph is visible if we click visable button</div>
 <button (click)="getVisable()">Visable</button>
 <button (click)="getInvisible()">not Visable</button>
-<div>
-    <ul class="card" *ngFor="let data of DataList" [ngClass]="'text-success'">
+<div class="text">
+    <div class="card" *ngFor="let data of Datadetails">
+    <ul  [ngClass]="'text-success'">
         <img src="../../assets/laptop.jpeg" alt="" width="80px" height="100px" />
         <li>
             {{ data.name }}
@@ -16,4 +17,5 @@
         <button>Buy</button>
         <button>Info</button>
     </ul>
+</div>
 </div>

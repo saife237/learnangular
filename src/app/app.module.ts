@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home';
 import { SairamComponent } from './sairam/sairam';
 import { KesavaComponent } from './kesava/kesava.component';
 import { DirectivesComponent } from './directives/directives.component';
+import { ChildComponent } from './child/child.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { DirectivesComponent } from './directives/directives.component';
     HomeComponent,
     SairamComponent,
     KesavaComponent,
-    DirectivesComponent
+    DirectivesComponent,
+    ChildComponent
   ],
   imports: [
     BrowserModule,

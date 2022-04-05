@@ -2,3 +2,7 @@
 <app-sairam></app-sairam>
 <app-kesava></app-kesava>     
 <app-directives></app-directives>
+<h2>
+    {{msg1}}
+</h2>
+<app-child [msg]="parentmsg" (childmsg)="'msg1=$event'"></app-child>
