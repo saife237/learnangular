@@ -6,7 +6,7 @@
 <button (click)="getInvisible()">not Visable</button>
 <div class="text">
     <div class="card" *ngFor="let data of Datadetails">
-    <ul  [ngClass]="'text-success'">
+    <ul>
         <img src="../../assets/laptop.jpeg" alt="" width="80px" height="100px" />
         <li>
             {{ data.name }}

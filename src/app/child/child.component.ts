@@ -9,7 +9,7 @@ import { ServiceService } from '../service.service';
 export class ChildComponent implements OnInit {
 
 @Input() msg:any;
-@Output() childmsg = new EventEmitter();
+@Output() childmsg = new EventEmitter<string>();
 
 public Data=this.service.DataList;
   constructor(private service:ServiceService) { }

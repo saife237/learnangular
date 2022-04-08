@@ -11,7 +11,7 @@ export class AppComponent implements OnInit {
     
   }
   parentmsg="parent massege send to child";
-  msg1:any='';
+  public msg1!: string;
 
  
  
