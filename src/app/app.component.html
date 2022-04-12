@@ -1,10 +1,4 @@
+<app-custom></app-custom>
 <div class="container">
-<app-home></app-home>
-<app-sairam></app-sairam>
-<app-kesava></app-kesava>     
-<app-directives></app-directives>
-<h2>
-    {{msg1}}
-</h2>
-<app-child [msg]="parentmsg" (childmsg)="msg1=$event"></app-child>
+    <router-outlet></router-outlet>
 </div>

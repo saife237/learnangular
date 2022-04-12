@@ -11,6 +11,15 @@ import { KesavaComponent } from './kesava/kesava.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { ChildComponent } from './child/child.component';
 import { UserregformComponent } from './userregform/userregform.component';
+import { CustomComponent } from './custom/custom.component';
+import { RouterModule, Routes } from '@angular/router';
+
+const routes:Routes = [
+  {path:'', component:HomeComponent},
+  {path:'home', component:HomeComponent},
+  {path:'user-registration', component:UserregformComponent},
+  {path:'directives', component:DirectivesComponent}
+]
 
 @NgModule({
   declarations: [
@@ -20,12 +29,14 @@ import { UserregformComponent } from './userregform/userregform.component';
     KesavaComponent,
     DirectivesComponent,
     ChildComponent,
-    UserregformComponent
+    UserregformComponent,
+    CustomComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
+    RouterModule.forRoot(routes),
   ],
   providers: [],
   bootstrap: [AppComponent]
