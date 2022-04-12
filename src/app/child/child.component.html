@@ -4,9 +4,10 @@
     {{msg}}
 </h2>
 
-<button (click)="onClick()">
+<button (click)="onClick()" class="btn btn-secondary">
     send child to parent
 </button>
+
 <div class="text">
     <ul *ngFor="let data of Data">
         <li>

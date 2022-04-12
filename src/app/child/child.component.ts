@@ -9,18 +9,19 @@ import { ServiceService } from '../service.service';
 export class ChildComponent implements OnInit {
 
 @Input() msg:any;
-@Output() childmsg = new EventEmitter<string>();
+@Output() childmsg:EventEmitter<string> = new EventEmitter<string>();
 
 public Data=this.service.DataList;
   constructor(private service:ServiceService) { }
 
+  onClick(){
+    this.childmsg.emit("child to parent");
+    
+  }
+
   ngOnInit(): void {
   }
 
-  onClick(){
-    this.childmsg.emit("child to parent");
-    console.log(this.childmsg)
-    
-  }
+  
 
 }

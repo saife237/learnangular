@@ -1,3 +1,4 @@
+<div class="container">
 <app-home></app-home>
 <app-sairam></app-sairam>
 <app-kesava></app-kesava>     
@@ -5,4 +6,5 @@
 <h2>
     {{msg1}}
 </h2>
-<app-child [msg]="parentmsg" (childmsg)="'msg1=$event'"></app-child>
+<app-child [msg]="parentmsg" (childmsg)="msg1=$event"></app-child>
+</div>

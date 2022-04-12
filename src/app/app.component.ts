@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl, FormGroup, NgForm } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 
 @Component({
@@ -12,7 +14,9 @@ export class AppComponent implements OnInit {
   }
   parentmsg="parent massege send to child";
   public msg1!: string;
-
  
+
+
+
  
 }
